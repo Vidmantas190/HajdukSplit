@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Verdana&display=swap');
+   
+
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif, serif;
+    background: linear-gradient(100deg, #c51b1b 50%, #ded9d9 10%, #001d75 50%);
+    
+}
+   
+p {
+    color: white;
+}
+    
+
+
+.nav-link {
+    color: blue;
+}
+.navbar-nav .nav-link.active {
+color: rgb(92, 163, 140);
+}
+.navbar-brand img {
+width: 50px;
+}
+
+.navbar-toggler {
+    background-color: rgb(106, 175, 175);
+}
+
+.sidebar {
+    color: white;
+    
+    background: linear-gradient(270deg, #c51b1b 50%, #ded9d9 10%, #001d75 50%);
+}
+
+
+
+.card {
+color: white;
+}
+
+.card a {
+    text-decoration: none;
+   color: white;
+    }
+
+.slide-text,
+.footer-text
+{
+    color: white;
+    margin: auto auto;
+}
+
+footer {
+    background: linear-gradient(270deg, #c51b1b 50%, #ded9d9 10%, #001d75 50%);
+}
+
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.emblem {
+    animation: myAnim 2s ease 4s infinite normal forwards;
+size: 20px;
+}
+
+@keyframes myAnim {
+    
+	0%,
+	50%,
+	100% {
+		opacity: 1;
+	}
+
+	25%,
+	75% {
+		opacity: 0;
+	}
+    
+}
